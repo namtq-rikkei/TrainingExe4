@@ -15,6 +15,7 @@
 		A3DA5A01229CF45400392C89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3DA59FF229CF45400392C89 /* LaunchScreen.storyboard */; };
 		A3DA5A0C229CF45400392C89 /* TrainingExe4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DA5A0B229CF45400392C89 /* TrainingExe4Tests.swift */; };
 		A3DA5A17229CF45400392C89 /* TrainingExe4UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DA5A16229CF45400392C89 /* TrainingExe4UITests.swift */; };
+		A3DA5A28229D290A00392C89 /* AvResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DA5A27229D290A00392C89 /* AvResult.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		A3DA5A12229CF45400392C89 /* TrainingExe4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrainingExe4UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3DA5A16229CF45400392C89 /* TrainingExe4UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingExe4UITests.swift; sourceTree = "<group>"; };
 		A3DA5A18229CF45400392C89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3DA5A27229D290A00392C89 /* AvResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvResult.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,11 +101,10 @@
 		A3DA59F2229CF45200392C89 /* TrainingExe4 */ = {
 			isa = PBXGroup;
 			children = (
+				A3DA5A26229D28DC00392C89 /* Model */,
+				A3DA5A24229CF4AE00392C89 /* Storyboard */,
 				A3DA59F3229CF45200392C89 /* AppDelegate.swift */,
-				A3DA59F5229CF45200392C89 /* ViewController.swift */,
-				A3DA59F7229CF45200392C89 /* Main.storyboard */,
 				A3DA59FD229CF45400392C89 /* Assets.xcassets */,
-				A3DA59FF229CF45400392C89 /* LaunchScreen.storyboard */,
 				A3DA5A02229CF45400392C89 /* Info.plist */,
 				A3DA59FA229CF45200392C89 /* TrainingExe4.xcdatamodeld */,
 			);
@@ -126,6 +127,32 @@
 				A3DA5A18229CF45400392C89 /* Info.plist */,
 			);
 			path = TrainingExe4UITests;
+			sourceTree = "<group>";
+		};
+		A3DA5A24229CF4AE00392C89 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				A3DA5A25229CF4DF00392C89 /* Main */,
+				A3DA59FF229CF45400392C89 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		A3DA5A25229CF4DF00392C89 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				A3DA59F5229CF45200392C89 /* ViewController.swift */,
+				A3DA59F7229CF45200392C89 /* Main.storyboard */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		A3DA5A26229D28DC00392C89 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A3DA5A27229D290A00392C89 /* AvResult.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,6 +289,7 @@
 				A3DA59F6229CF45200392C89 /* ViewController.swift in Sources */,
 				A3DA59F4229CF45200392C89 /* AppDelegate.swift in Sources */,
 				A3DA59FC229CF45200392C89 /* TrainingExe4.xcdatamodeld in Sources */,
+				A3DA5A28229D290A00392C89 /* AvResult.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
